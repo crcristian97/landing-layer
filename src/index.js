@@ -14,7 +14,7 @@ import questionsART from "./components/Views/utils/ARTFQA";
 import artHeroSeccion from "./img/artHeroSeccion.webp";
 import despidosJusticia from './img/despidosJusticia.webp';
 import ContactFormService from "./components/Views/ContactFormService";
-
+import ArtCard from "./components/Views/ARTCard";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +27,7 @@ const router = createBrowserRouter([
     <>
     <Header />
     <DespidosHeader 
+        nombre="Despidos"
         img={despidosJusticia} 
         title="Estatua de la Justicia con venda en los ojos, balanza y espada, simbolizando imparcialidad, equilibrio y autoridad en la justicia." 
         alt="Lady Justice con venda, balanza y espada, representando imparcialidad y equidad en el derecho."
@@ -44,10 +45,12 @@ const router = createBrowserRouter([
     element: <>
     <Header />
     <DespidosHeader 
+        nombre="ART"
         img={artHeroSeccion} 
         title="ART en Argentina: Abogados especializados en accidentes laborales y derechos de los trabajadores." 
         alt="Asesoramiento legal sobre ART en Argentina, protección ante riesgos laborales."
     />
+    <ArtCard />
     <FAQ 
         questions={questionsART} 
     />
