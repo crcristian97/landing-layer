@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Landing Page para Firma de Abogados
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto consiste en la creación de una **Landing Page** para una firma de abogados, diseñada para proporcionar información clave sobre los servicios legales que ofrece la empresa. La página incluye secciones sobre **Estudio Legal**, **Despidos**, **ART (Aseguradora de Riesgos de Trabajo)** y **Contacto**, con el objetivo de ofrecer una experiencia profesional, clara y accesible para los clientes potenciales.
 
-## Available Scripts
+## Secciones
 
-In the project directory, you can run:
+### 1. **Estudio (Asesoramiento Legal)**
 
-### `npm start`
+En esta sección se presenta la firma de abogados, destacando la experiencia y la especialización del equipo legal. Contiene:
+- Una breve introducción sobre las áreas de práctica de la firma.
+- Información detallada sobre los servicios legales ofrecidos (derecho civil, familiar, corporativo, etc.).
+- Testimonios o casos de éxito que refuercen la credibilidad de la firma.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. **Despidos**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Esta sección está dedicada a proporcionar asesoría legal sobre despidos laborales. Incluye:
+- Explicación de los derechos laborales en caso de despido.
+- Preguntas Frecuentes.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3. **ART (Aseguradora de Riesgos de Trabajo)**
 
-### `npm run build`
+En esta parte se informa sobre la ART y su importancia para trabajadores y empleadores. Incluye:
+- Explicación de qué es la ART y cómo funciona.
+- Consejos sobre cómo realizar reclamos y qué hacer en caso de accidente laboral.
+- Información sobre la responsabilidad de los empleadores en cuanto a la ART.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 4. **Contacto**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Sección de contacto que facilita la comunicación entre la firma de abogados y los potenciales clientes. Contiene:
+- Un formulario de contacto para consultas directas.
+- Detalles de contacto, como número de teléfono y dirección de correo electrónico.
+- Ubicación física de la oficina con un mapa interactivo.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Optimización SEO y Accesibilidad
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **SEO Optimizado**: Se han utilizado etiquetas `alt` y `title` para las imágenes, y metatags para mejorar la visibilidad en los motores de búsqueda.
+- **Diseño Responsivo**: La página se adapta a diferentes tamaños de pantalla, garantizando una experiencia adecuada en dispositivos móviles y de escritorio.
+- **Accesibilidad**: La página cumple con las pautas de accesibilidad (WCAG), como fuentes legibles, texto alternativo para imágenes y una navegación clara.
